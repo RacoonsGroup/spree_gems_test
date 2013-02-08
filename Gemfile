@@ -5,7 +5,7 @@ gem 'rails', '3.2.11'
 gem 'sqlite3'
 
 group :production do
-  gem 'mysql2'
+	gem 'mysql2'
 end
 
 group :assets do
@@ -19,4 +19,4 @@ gem 'jquery-rails', '2.1.4'
 gem 'spree', '1.3.1'
 gem 'spree_gateway', :github => 'spree/spree_gateway', :branch => '1-3-stable'
 gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-3-stable'
-gem "spree_one_page_checkout"
+gem "spree_one_page_checkout", :github => 'RacoonsGroup/spree_one_page_checkout'

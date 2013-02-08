@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/RacoonsGroup/spree_one_page_checkout.git
+  revision: 75ff93d813286485f1600d76b114e75562695364
+  specs:
+    spree_one_page_checkout (1.0.0)
+      spree_core (~> 1.3.0)
+
+GIT
   remote: git://github.com/spree/spree_auth_devise.git
   revision: ab03a7a22740b52f96bf0311a1e9f18a99ee02f2
   branch: 1-3-stable
@@ -221,8 +228,6 @@ GEM
     spree_dash (1.3.1)
       httparty (~> 0.8.1)
       spree_core (= 1.3.1)
-    spree_one_page_checkout (1.0.0)
-      spree_core (~> 1.3.0)
     spree_promo (1.3.1)
       spree_core (= 1.3.1)
     spree_sample (1.3.1)
@@ -267,6 +272,6 @@ DEPENDENCIES
   spree (= 1.3.1)
   spree_auth_devise!
   spree_gateway!
-  spree_one_page_checkout
+  spree_one_page_checkout!
   sqlite3
   uglifier (>= 1.0.3)
