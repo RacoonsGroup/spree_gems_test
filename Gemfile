@@ -2,11 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
 
-gem 'sqlite3'
-
-group :production do
-	gem 'mysql2'
-end
+gem 'mysql2'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
