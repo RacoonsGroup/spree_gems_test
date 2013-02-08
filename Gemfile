@@ -10,7 +10,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '2.1.4'
 
 gem 'spree', '1.3.1'
 gem 'spree_gateway', :github => 'spree/spree_gateway', :branch => '1-3-stable'
