@@ -9,5 +9,6 @@
 
 //= require store/spree_core
 //= require store/spree_promo
+//= require store/spree_one_page_checkout
 
 //= require_tree .
