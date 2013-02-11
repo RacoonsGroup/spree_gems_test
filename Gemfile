@@ -10,6 +10,13 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :development do
+  gem 'sqlite3'
+  gem 'debugger'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
+
 gem 'jquery-rails', '2.1.4'
 
 gem 'spree', '1.3.1'
