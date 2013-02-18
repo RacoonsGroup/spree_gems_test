@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: git://github.com/RacoonsGroup/spree_one_page_checkout.git
-  revision: 070875d283d458a5b77cf7dcd87af5d7576aec81
+  revision: 9687a9833c165d661f2c7441b18571992fa75efe
   specs:
     spree_one_page_checkout (1.0.0)
       ejs
