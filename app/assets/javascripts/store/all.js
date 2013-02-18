@@ -12,4 +12,4 @@
 //= require store/spree_one_page_checkout
 
 //= require_tree .
-// require store/spree_commentable
+//= require store/spree_commentable
